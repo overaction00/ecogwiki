@@ -6,7 +6,7 @@ import webapp2
 if 'lib' not in sys.path:
     sys.path[0:0] = ['lib']
 
-VERSION = '0.0.1_20140407_0'
+VERSION = '0.0.1_20140324_0'
 
 DEFAULT_CONFIG = {
     'navigation': [
@@ -21,18 +21,18 @@ DEFAULT_CONFIG = {
         },
     ],
     'admin': {
-        'email': '',
-        'gplus_url': '',
-        'twitter': '',
+        'email': 'wormslab@gmail.com',
+        'gplus_url': 'https://plus.google.com/115331232099796076139',
+        'twitter': 'wormslab',
     },
     'service': {
-        'title': '',
-        'domain': '',
+        'title': 'wormslabWiki',
+        'domain': 'wormslabwiki.appspot.com',
         'fb_app_id': '',
-        'ga_profile_id': '',
+        'ga_profile_id': 'UA-50434131-1',
         'ga_classic_profile_id': '',
         'google_oauth2_web_client_id': '',
-        'google_drive_folder': 'ecogwiki_public',
+        'google_drive_folder': '',
         'css_list': [
             '/statics/css/base.css',
         ],
